@@ -42,7 +42,7 @@ const ListaDenuncias = ({ navigation }) => {
         renderItem={({ item }) => (
           <View style={{ flexDirection: 'row', padding: 10 }}>
           <Text style={{ flex: 2 }}>{item.data}</Text>
-            <Text style={{ flex: 6 }}>{item.endereco}</Text>
+            <Text style={{ flex: 4 }}>{item.endereco}</Text>
             <Text style={{ flex: 3 }}>{item.descricao}</Text>
             <Text style={{ flex: 2 }}>{item.status}</Text>
           </View>
@@ -50,7 +50,7 @@ const ListaDenuncias = ({ navigation }) => {
         ListHeaderComponent={() => (
           <View style={{ flexDirection: 'row', padding: 10, borderBottomWidth: 1 }}>
            <Text style={{ flex: 1, fontWeight: 'bold' }}>Data</Text>
-            <Text style={{ flex: 1, fontWeight: 'bold' }}>Endereço</Text>
+            <Text style={{ flex: 0.9, fontWeight: 'bold' }}>Endereço</Text>
             <Text style={{ flex: 1, fontWeight: 'bold' }}>Descrição</Text>
             <Text style={{ flex: 0, fontWeight: 'bold' }}>Status</Text>
           </View>

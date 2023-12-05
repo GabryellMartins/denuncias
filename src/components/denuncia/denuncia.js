@@ -99,9 +99,9 @@ const styles = StyleSheet.create({
     },
     topBar: {
         backgroundColor: '#0d5434',
-        padding: 15,
+        padding: 10,
         alignItems: 'center',
-        marginTop: 35,
+       
     },
     topBarText: {
         color: 'white',
@@ -110,7 +110,8 @@ const styles = StyleSheet.create({
     },
     voltarButton: {
         backgroundColor: '#d6d2c4', //creme
-        padding: 20,
+        padding: 15,
+        marginBottom: 15,
 
     },
     enviarButton: {
@@ -136,7 +137,8 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        padding: 20,
+        padding: 200,
+        backgroundColor: '#eee'
 
     },
     input: {

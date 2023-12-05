@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#0d5434',
     padding: 15,
     alignItems: 'center',
-     marginTop: 35,
+    
   },
   topBarText: {
     color: 'white',

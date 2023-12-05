@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
         padding: 15,
         alignItems: 'center',
         paddingTop: 20
+    
     },
     topBarText: {
         color: 'white',

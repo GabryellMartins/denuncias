@@ -32,9 +32,6 @@ const Principal = ({ navigation }) => {
 
       <View style={{flex:1, justifyContent:'center',alignItems:'center'}}>
 
-        <Text style={styles.vejaDen}>VEJA SUAS DENUNCIAS</Text>
-        <Text style={{...styles.vejaDen, paddingBottom:40}}>REALIZADAS AQUI</Text>
-
         <TouchableOpacity onPress={() => navigation.navigate('ListaDenuncias')}
                           style={{...styles.bifeButton, borderRadius:40}}>
 
@@ -61,12 +58,13 @@ const Principal = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:'#eee'
+    backgroundColor:'#eee',
+  
   },
   bgView:{
     justifyContent:'center', 
     alignItems:'center', 
-    padding:20, 
+    padding:40, 
     backgroundColor:'#d6d2c4' //creme
   },
   topBar: {

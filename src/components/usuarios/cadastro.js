@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#0d5434',
     padding: 15,
     alignItems: 'center',
-     marginTop: 35,
+  
   },
   topBarText: {
     color: 'white',
@@ -104,7 +104,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 20,
+    padding: 200,
+    backgroundColor: '#eee'
   },
   input: {
     width: '60%',
@@ -137,7 +138,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: 'bold',
     textAlign: 'center',
-    padding:20,
+    padding:10,
    },
 });
 
